@@ -1,22 +1,73 @@
-@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Angkor&family=VT323&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Angkor&family=Concert+One&family=Luckiest+Guy&family=Oi&display=swap');
 
 
+body{
+    display: flex;
+    justify-content: center;
+}
 
 .content {
-    border: 1px solid red;
+    width: 30em;
+    height: 20em;
+    margin: 5em;
+    border: 5px solid rgb(206, 206, 206);
+    border-radius: 5%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 50px;
+    padding: 10%;
+}
 
+.content{
+    background-image: url(./645954.png);
+    object-fit: none;
+    object-position: 50% 50%;
 }
 
 h1 {
-    font-family: 'Alfa Slab One', cursive;
-    font-size: 30px;
+    color: white;
+    margin: 0;
+    font-family: 'Angkor', cursive;
+    font-size: 35px;
+}
+
+p{
+    color: white;
+    margin: 0.5em;
+    text-align: center;
+    font-family: 'VT323', monospace;
+    font-size: 23px;
+
 }
 
 img {
-    width: 200px;
+    width: 15em;
+}
+
+button {
+    background: white;
+    margin: 5px;
+    padding: 5px;
+    width: 100px;
+    height: 50px;
+    border-radius: 30%;
+    color: black;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: 'Luckiest Guy', cursive;
+}
+
+button:hover {
+    background: white;
+    padding: 5px;
+    font-family: 'Luckiest Guy', cursive;
+    width: 103px;
+    height: 53px;
+    border-radius: 30%;
+    color: red;
+    cursor: pointer;
+    font-size: 23px;
 }
