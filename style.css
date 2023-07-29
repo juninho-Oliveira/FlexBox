@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Angkor&family=VT323&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Angkor&family=Concert+One&family=Luckiest+Guy&family=Oi&display=swap');
 
 
@@ -10,7 +9,7 @@ body{
 
 .content {
     width: 30em;
-    height: 20em;
+    height: 22em;
     margin: 5em;
     border: 5px solid rgb(206, 206, 206);
     border-radius: 5%;
@@ -23,19 +22,20 @@ body{
 
 .content{
     background-image: url(./645954.png);
-    object-fit: none;
-    object-position: 50% 50%;
+    background-position: center;
+    background-size: cover;
+    
 }
 
 h1 {
-    color: white;
+    color: rgb(0, 0, 0);
     margin: 0;
     font-family: 'Angkor', cursive;
     font-size: 35px;
 }
 
 p{
-    color: white;
+    color: rgb(0, 0, 0);
     margin: 0.5em;
     text-align: center;
     font-family: 'VT323', monospace;
@@ -70,4 +70,28 @@ button:hover {
     color: red;
     cursor: pointer;
     font-size: 23px;
+}
+
+@media (max-width:770px) {
+    main.content{
+        display: flex ;
+        height: 70%;
+    }
+    
+    main img {
+        display: block;
+        width: 70%;
+    }
+     button {
+        background: white;
+        margin: 0;
+        padding: 1px;
+        width: 5em;
+        height: 2em;
+        border-radius: 30%;
+        color: rgb(0, 0, 0);
+        cursor: pointer;
+        font-size: 15px;
+        font-family: 'Luckiest Guy';
+    } 
 }
